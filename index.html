@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Weather App For Learning</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  
+  <div class="container">
+    <!-- Card deck -->
+    <div class="card-deck row">
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+      <!-- Card -->
+        <div class="card">
+          <div class="card-body">
+            <div class="input-group search">
+              <input type="text" class="form-control search-bar" placeholder="Find Weather Info" aria-label="Find Weather Info" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Submit</button>
+              </div>
+            </div>
+
+            <div class="weather loading">
+              <h2 class="city">Weather in Dhaka</h2>
+              <h1 class="temp">33°C</h1>
+              <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+                <div class="description">Cloudy</div>
+              </div>
+              <div class="humidity">Humidity: 60%</div>
+              <div class="wind">Wind speed: 6.2 km/h</div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
